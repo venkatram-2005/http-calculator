@@ -1,0 +1,20 @@
+{
+  "name": "http-calculator",
+  "version": "1.0.0",
+  "description": "A simple HTTP-based calculator with basic arithmetic operations.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "calculator",
+    "http",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
+}
