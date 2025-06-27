@@ -11,7 +11,7 @@ const Calculator = () => {
   const calculate = async () => {
     try {
       setError('');
-      const response = await axios.post(`http://localhost:5000/calculator/${operation}`, {
+      const response = await axios.post(`https://http-calculator.onrender.com/calculator/${operation}`, {
         a,
         b
       });
